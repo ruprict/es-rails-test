@@ -3,7 +3,7 @@
   {
     "name": "api",
       "links": [],
-      "image": "ruprict/event_sourced_service",
+      "image": "ruprict/event_sourced_service:v_%BUILD_NUMBER%",
       "essential": true,
       "portMappings": [
       {
