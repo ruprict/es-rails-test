@@ -1,0 +1,24 @@
+{
+  "containerDefinitions": [
+  {
+    "name": "api",
+      "links": [],
+      "image": "ruprict/event_sourced_service",
+      "essential": true,
+      "portMappings": [
+      {
+        "containerPort": 3000,
+        "hostPort": 3000
+      }],
+      "environment": [
+        {
+          "name": "DATABASE_URL",
+          "value": "postgres://uniqueusa:3salerugs@geg-test-1.cnemtkddchpq.us-east-1.rds.amazonaws.com:5432/eventstore_test_1?sslca=config/ca/rds-ssl-ca-cert.pem&sslmode=require&encrypt=true"
+        } 
+    ],
+      "memory": 500,
+      "cpu": 50
+  }
+  ],
+  "family": "api"
+}

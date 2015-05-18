@@ -1,0 +1,28 @@
+{
+    "containerDefinitions": [
+    {
+      "volumesFrom": [],
+      "portMappings": [],
+      "command": [
+        "rake",
+      "db:migrate"
+        ],
+      "environment": [
+      {
+        "name": "DATABASE_URL",
+        "value": "postgres://uniqueusa:3salerugs@geg-test-1.cnemtkddchpq.us-east-1.rds.amazonaws.com:5432/eventstore_test_1?sslca=config/ca/rds-ssl-ca-cert.pem&sslmode=require&encrypt=true"
+      }
+      ],
+        "essential": true,
+        "entryPoint": [],
+        "links": [],
+        "mountPoints": [],
+        "memory": 500,
+        "name": "migratedb",
+        "cpu": 30,
+        "image": "ruprict/es-rails-test"
+    }
+  ],
+    "volumes": [],
+    "family": "MigrateDB"
+}

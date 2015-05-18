@@ -1,0 +1,2 @@
+#!/bin/bash
+echo ECS_CLUSTER=staging_AuthenticationService >> /etc/ecs/ecs.config

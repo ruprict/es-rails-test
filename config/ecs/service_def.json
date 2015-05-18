@@ -1,0 +1,6 @@
+{
+  "cluster": "test_AuthService",
+  "serviceName": "authService",
+  "taskDefinition": "api:1",
+  "desiredCount": 1
+}
