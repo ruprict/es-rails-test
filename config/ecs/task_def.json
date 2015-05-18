@@ -3,7 +3,7 @@
   {
     "name": "api",
       "links": [],
-      "image": "ruprict/event_sourced_service:v_%BUILD_NUMBER%",
+      "image": "ruprict/es-rails-test:v_%BUILD_NUMBER%",
       "essential": true,
       "portMappings": [
       {
