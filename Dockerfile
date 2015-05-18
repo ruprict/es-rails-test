@@ -4,6 +4,8 @@ RUN apt-get update -qq && apt-get install -y build-essential
 
 EXPOSE 3000
 
+RUN apt-get update -yqq
+
 # for postgres
 RUN apt-get install -y libpq-dev
 
