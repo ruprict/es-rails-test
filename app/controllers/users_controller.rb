@@ -5,6 +5,11 @@ class UsersController < ApplicationController
   # GET /users.json
   def index
     @users = User.all
+    u = User.new
+    u.first_name = 'Arse'
+    u.last_name = 'Biscuits'
+    u.email = 'arse@biscuits.com'
+    @users =  [u]
 
     render json: @users
   end
