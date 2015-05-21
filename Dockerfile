@@ -15,13 +15,14 @@ RUN apt-get install -y libqt4-webkit libqt4-dev xvfb
 # for a JS runtime
 RUN apt-get install -y nodejs
 
-ENV APP_HOME /app
-RUN mkdir $APP_HOME
-WORKDIR $APP_HOME
+RUN mkdir /app
 
-ADD Gemfile* $APP_HOME/
+WORKDIR /tmp
+COPY Gemfile Gemfile
+ADD Gemfile.lock Gemfile.lock
 RUN bundle install
 
-ADD . $APP_HOME
+ADD . /app
+WORKDIR /app
 
-CMD ["rails", "s", "-b", "0.0.0.0"]
+CMD ["rails", "server", "-b", "0.0.0.0"]
