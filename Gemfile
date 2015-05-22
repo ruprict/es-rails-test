@@ -11,6 +11,11 @@ gem 'active_model_serializers'
 
 gem 'pg'
 
+group :test do
+  gem 'rspec-rails', require: false
+  gem 'simplecov', require: false
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
