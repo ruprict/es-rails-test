@@ -14,6 +14,7 @@ gem 'pg'
 group :test do
   gem 'rspec-rails', require: false
   gem 'simplecov', require: false
+  gem 'simplecov-rcov', :require => false
 end
 
 # To use ActiveModel has_secure_password
