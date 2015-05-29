@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/app/spec/controllers/users_controller_spec.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/spec/controllers/users_controller_spec.rb": [
         1,
         null,
         1,
@@ -53,7 +53,7 @@
         null,
         null
       ],
-      "/app/spec/rails_helper.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -105,14 +105,14 @@
         1,
         null
       ],
-      "/app/config/environment.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/app/config/application.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/application.rb": [
         1,
         null,
         null,
@@ -145,12 +145,12 @@
         null,
         null
       ],
-      "/app/config/boot.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/app/config/environments/test.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/environments/test.rb": [
         1,
         null,
         null,
@@ -194,34 +194,34 @@
         null,
         null
       ],
-      "/app/config/initializers/filter_parameter_logging.rb": [
-        null,
-        null,
-        null,
-        1
-      ],
-      "/app/config/initializers/secret_token.rb": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/app/config/initializers/wrap_parameters.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/initializers/secret_token.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -236,7 +236,7 @@
         null,
         null
       ],
-      "/app/config/routes.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/config/routes.rb": [
         1,
         1,
         1,
@@ -297,7 +297,7 @@
         null,
         null
       ],
-      "/app/app/controllers/users_controller.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/app/controllers/users_controller.rb": [
         1,
         1,
         null,
@@ -358,15 +358,15 @@
         null,
         null
       ],
-      "/app/app/controllers/application_controller.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/app/controllers/application_controller.rb": [
         1,
         null
       ],
-      "/app/app/models/user.rb": [
+      "/Users/ggoodrich/projects/unique-usa/event_sourced_service/app/models/user.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1432324502
+    "timestamp": 1432734294
   }
 }

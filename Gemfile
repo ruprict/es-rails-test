@@ -5,7 +5,10 @@ gem 'puma'
 
 gem 'rails-api'
 
-gem 'spring', :group => :development
+group :develpment do
+  gem 'spring'
+  gem 'prmd'
+end
 
 gem 'active_model_serializers'
 
@@ -15,6 +18,8 @@ group :test do
   gem 'rspec-rails', require: false
   gem 'simplecov', require: false
   gem 'simplecov-rcov', :require => false
+  gem 'guard-rspec'
+  gem 'ci_reporter_rspec'
 end
 
 # To use ActiveModel has_secure_password

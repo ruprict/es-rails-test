@@ -22,7 +22,8 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: event_sourced_service_development
+  database: event_sourced_service_test
+  host: 192.168.59.103
 
 production:
   <<: *default
