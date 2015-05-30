@@ -8,6 +8,7 @@ gem 'rails-api'
 group :develpment do
   gem 'spring'
   gem 'prmd'
+  gem 'rspec-rails'
 end
 
 gem 'active_model_serializers'
@@ -15,9 +16,9 @@ gem 'active_model_serializers'
 gem 'pg'
 
 group :test do
-  gem 'rspec-rails', require: false
-  gem 'simplecov', require: false
-  gem 'simplecov-rcov', :require => false
+  gem 'rspec-rails'
+  gem 'simplecov'
+  gem 'simplecov-rcov'
   gem 'guard-rspec'
   gem 'ci_reporter_rspec'
 end
